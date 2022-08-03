@@ -1,20 +1,22 @@
 package com.example.unsmoke;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.EditText;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class Cadastro extends AppCompatActivity {
-EditText login, senha;
+EditText cadastroLogin, cadastroSenha;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
         getSupportActionBar().hide();
-        login = findViewById(R.id.loginCadastro);
-        senha = findViewById(R.id.senhaCadastro);
+        cadastroLogin = findViewById(R.id.loginCadastro);
+        cadastroSenha = findViewById(R.id.senhaCadastro);
 
     }
+    private FirebaseAuth mAuth;
 
 }
