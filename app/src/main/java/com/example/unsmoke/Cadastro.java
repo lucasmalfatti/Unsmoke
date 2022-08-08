@@ -17,6 +17,5 @@ EditText cadastroLogin, cadastroSenha;
         cadastroSenha = findViewById(R.id.senhaCadastro);
 
     }
-    private FirebaseAuth mAuth;
 
 }

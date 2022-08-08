@@ -3,17 +3,14 @@ package com.example.unsmoke;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity {
-    EditText login, senha;
+public class TelaEscolha extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_tela_escolha);
         getSupportActionBar().hide();
-        login = findViewById(R.id.login);
-        senha = findViewById(R.id.senha);
+
     }
 }
