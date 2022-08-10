@@ -8,28 +8,16 @@
     tools:context=".Login">
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105"
-        app:srcCompat="@drawable/logousmoke" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="63dp"
-        android:layout_height="75dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.091"
-        app:srcCompat="@drawable/logounsmoke" />
+        app:layout_constraintVertical_bias="0.103"
+        app:srcCompat="@drawable/zhbjmxc_ksvuaaadfg_fyavfdtyvftyjdcfthjdftjh" />
 
     <EditText
         android:id="@+id/login2"
