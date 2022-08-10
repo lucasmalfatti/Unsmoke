@@ -25,8 +25,8 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         getSupportActionBar().hide();
-        login = findViewById(R.id.login);
-        senha = findViewById(R.id.senha);
+        login = findViewById(R.id.login2);
+        senha = findViewById(R.id.senha2);
         alerta = new AlertDialog.Builder(this);
     }
 
