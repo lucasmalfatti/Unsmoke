@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_corner"
         android:ems="10"
-        android:hint="LOGIN"
         android:inputType="textPersonName"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.35"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/senhaCadastro"
@@ -30,7 +29,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_corner"
         android:ems="10"
-        android:hint="SENHA"
         android:inputType="numberPassword"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,6 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#CA0E0E"
+        android:onClick="cadastra"
         android:text="cadastrar"
         app:cornerRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"

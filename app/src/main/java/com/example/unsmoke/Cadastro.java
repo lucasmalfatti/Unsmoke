@@ -2,6 +2,7 @@ package com.example.unsmoke;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -16,6 +17,12 @@ EditText cadastroLogin, cadastroSenha;
         cadastroLogin = findViewById(R.id.loginCadastro);
         cadastroSenha = findViewById(R.id.senhaCadastro);
 
+    }
+    public void cadastra(View v){
+        String l = cadastroLogin.getText().toString();
+        int s = Integer.parseInt(cadastroSenha.getText().toString());
+        Usuario usuario = new Usuario(l,s);
+        usuario.salvar();
     }
 
 }
