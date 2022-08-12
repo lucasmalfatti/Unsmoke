@@ -1,6 +1,8 @@
 package com.example.unsmoke;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -21,8 +23,14 @@ EditText cadastroLogin, cadastroSenha;
     public void cadastra(View v){
         String l = cadastroLogin.getText().toString();
         int s = Integer.parseInt(cadastroSenha.getText().toString());
-        Usuario usuario = new Usuario(l,s);
+        Usuario usuario = new Usuario(l,s, 0, 0);
         usuario.salvar();
+        mudarTela();
+    }
+
+    public void mudarTela() {
+        Intent a = new Intent(this, TelaEscolha.class);
+        startActivity(a);
     }
 
 }

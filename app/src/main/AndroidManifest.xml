@@ -17,16 +17,10 @@
             android:name=".Login"
             android:exported="false" />
         <activity
-            android:name=".respostaVape"
+            android:name=".RespostaVape"
             android:exported="false" />
         <activity
-            android:name=".respostaCigarro"
-            android:exported="false" />
-        <activity
-            android:name=".TelaVape"
-            android:exported="false" />
-        <activity
-            android:name=".TelaCigarro"
+            android:name=".RespostaCigarro"
             android:exported="false" />
         <activity
             android:name=".TelaEscolha"

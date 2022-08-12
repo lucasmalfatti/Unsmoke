@@ -7,22 +7,40 @@
     tools:context=".TelaEscolha">
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/imagm_escolha"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="186dp"
-        android:layout_height="57dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/zhbjmxc_ksvuaaadfg_fyavfdtyvftyjdcfthjdftjh" />
+        app:srcCompat="@drawable/story_do_instagram_pare_de_fumar_preto_e_vermelho__6_" />
+
+    <Button
+        android:id="@+id/confirmaCigarro"
+        android:layout_width="294dp"
+        android:layout_height="86dp"
+        android:backgroundTint="#00FBFBFB"
+        android:onClick="confirmarCigarro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/confirmaVape"
+        android:layout_width="242dp"
+        android:layout_height="104dp"
+        android:backgroundTint="#00C59C9C"
+        android:onClick="confirmarVape"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.728"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

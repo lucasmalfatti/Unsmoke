@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "24723563132",
+    "firebase_url": "https://unsmoke-e353c-default-rtdb.firebaseio.com",
+    "project_id": "unsmoke-e353c",
+    "storage_bucket": "unsmoke-e353c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24723563132:android:4ad6818fb81bcbcaf45ff9",
+        "android_client_info": {
+          "package_name": "com.example.unsmoke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24723563132-s7irnaqn25j2d8pmnnvtp8phmlfg6kid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbYhNyp5zgQLJnynBYql0JTv43nPM-l7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24723563132-s7irnaqn25j2d8pmnnvtp8phmlfg6kid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

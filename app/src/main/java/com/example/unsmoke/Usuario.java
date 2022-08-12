@@ -6,10 +6,13 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Usuario {
     String login;
     int senha;
-
-    public Usuario(String login, int senha) {
+    int cigarro;
+    int vaper;
+    public Usuario(String login, int senha, int cigarro, int vaper) {
         this.login = login;
         this.senha = senha;
+        this.cigarro = cigarro;
+        this.vaper = vaper;
     }
 
     public String getLogin() {
@@ -27,6 +30,14 @@ public class Usuario {
     public void setSenha(int senha) {
         this.senha = senha;
     }
+
+    public int getCigarro() { return cigarro; }
+
+    public void setCigarro(int cigarro) { this.cigarro = cigarro; }
+
+    public int getVaper() { return vaper; }
+
+    public void setVaper(int vaper) { this.vaper = vaper; }
 
     public void salvar(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference();
