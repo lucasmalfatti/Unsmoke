@@ -23,10 +23,10 @@
             android:name=".RespostaCigarro"
             android:exported="false" />
         <activity
-            android:name=".TelaEscolha"
+            android:name=".Cadastro"
             android:exported="false" />
         <activity
-            android:name=".Cadastro"
+            android:name=".TelaEscolher"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

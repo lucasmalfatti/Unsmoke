@@ -15,7 +15,7 @@ public class RespostaVape extends AppCompatActivity {
         getSupportActionBar().hide();
     }
     public void voltarEscolha(View view) {
-        Intent i = new Intent(this, TelaEscolha.class);
+        Intent i = new Intent(this, TelaEscolher.class);
         startActivity(i);
     }
 }

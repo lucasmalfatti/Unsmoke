@@ -84,7 +84,7 @@
         android:layout_width="350dp"
         android:layout_height="51dp"
         android:backgroundTint="#CA0E0E"
-        android:onClick="verificaUsuario"
+        android:onClick="verificaUsuarios"
         android:text="Login"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

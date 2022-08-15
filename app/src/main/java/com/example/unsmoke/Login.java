@@ -36,23 +36,24 @@ public class Login extends AppCompatActivity {
     }
 
     public void mudarTela() {
-        Intent a = new Intent(this, TelaEscolha.class);
+        Intent a = new Intent(this, TelaEscolher.class);
         startActivity(a);
     }
     public void print(String p) {
         Toast.makeText(this, p, Toast.LENGTH_SHORT).show();
     }
-    public void verificaUsuario(View v) {
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Usuario");
+
+    public void verificaUsuarios(View v) {
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Usuarios");
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 boolean auxiliar = false;
-
                 String l = login.getText().toString();
                 int s = Integer.parseInt(senha.getText().toString());
 
                 for (DataSnapshot usuario : snapshot.getChildren()) {
+                    print("Bem Vindo!");
                     if (usuario.getValue(Usuario.class).getLogin().equals(l) && usuario.getValue(Usuario.class).getSenha() == s) {
                         auxiliar = true;
                         print("Bem Vindo!");
@@ -72,4 +73,5 @@ public class Login extends AppCompatActivity {
             }
         });
     }
+
 }

@@ -4,43 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaEscolha">
+    tools:context=".TelaEscolher">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/story_do_instagram_pare_de_fumar_preto_e_vermelho__6_" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/story_do_instagram_pare_de_fumar_preto_e_vermelho__5_" />
 
     <Button
-        android:id="@+id/confirmaCigarro"
-        android:layout_width="294dp"
-        android:layout_height="86dp"
-        android:backgroundTint="#00FBFBFB"
+        android:id="@+id/button8"
+        android:layout_width="196dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#00BA4E4E"
         android:onClick="confirmarCigarro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintVertical_bias="0.458" />
 
     <Button
-        android:id="@+id/confirmaVape"
-        android:layout_width="242dp"
-        android:layout_height="104dp"
-        android:backgroundTint="#00C59C9C"
+        android:id="@+id/button9"
+        android:layout_width="155dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#00404040"
         android:onClick="confirmarVape"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.728"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintVertical_bias="0.066" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

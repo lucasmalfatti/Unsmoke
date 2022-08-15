@@ -14,8 +14,8 @@ public class RespostaCigarro extends AppCompatActivity {
         setContentView(R.layout.activity_resposta_cigarro);
         getSupportActionBar().hide();
     }
-    public void voltarEscolha(View view){
-        Intent i = new Intent(this, TelaEscolha.class);
+    public void voltarEscolha(View C){
+        Intent i = new Intent(this, TelaEscolher.class);
         startActivity(i);
     }
 }

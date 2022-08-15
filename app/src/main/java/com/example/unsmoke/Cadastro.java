@@ -25,12 +25,8 @@ EditText cadastroLogin, cadastroSenha;
         int s = Integer.parseInt(cadastroSenha.getText().toString());
         Usuario usuario = new Usuario(l,s, 0, 0);
         usuario.salvar();
-        mudarTela();
-    }
-
-    public void mudarTela() {
-        Intent a = new Intent(this, TelaEscolha.class);
-        startActivity(a);
+        Intent i = new Intent(this, TelaEscolher.class);
+        startActivity(i);
     }
 
 }

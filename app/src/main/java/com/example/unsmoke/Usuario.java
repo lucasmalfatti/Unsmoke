@@ -15,6 +15,7 @@ public class Usuario {
         this.vaper = vaper;
     }
 
+
     public String getLogin() {
         return login;
     }

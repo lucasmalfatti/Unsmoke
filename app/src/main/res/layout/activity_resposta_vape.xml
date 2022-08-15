@@ -8,20 +8,23 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="422dp"
+        android:layout_height="751dp"
         android:onClick="voltarEscolha"
         android:src="@drawable/story_do_instagram_pare_de_fumar_preto_e_vermelho__7_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#00F3EFEF"
+        android:onClick="voltarEscolha"
         android:text="Back"
         android:textColor="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
